@@ -42,7 +42,7 @@ The dashboard answers key business questions related to revenue growth, margin p
 
 ---
 
-## Dashboard Screenshots
+## Dashboard Screenshot
 
 ### Executive Overview
 ![Executive Overview](Screenshots/BA_Overview.png)
@@ -57,3 +57,4 @@ The dashboard answers key business questions related to revenue growth, margin p
 
 ## Notes
 This project reflects a real-world Business Analyst workflow focused on insight generation and decision support rather than basic reporting.
+
