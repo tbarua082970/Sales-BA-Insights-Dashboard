@@ -1,148 +1,59 @@
-\# Sales \& Profitability Business Insights Dashboard (Power BI)
+# Sales & Profitability Business Insights Dashboard (Power BI)
 
-
-
-\## Project Overview
-
+## Project Overview
 This project demonstrates a mid-level Business Analyst approach to analyzing sales performance, profitability drivers, and customer and regional insights using Power BI.
 
-
-
-The dashboard focuses on answering real business questions such as:
-
-\- Where is revenue growing or declining year-over-year?
-
-\- Which products and customers generate profit versus volume?
-
-\- Which regions contribute most to overall performance?
-
-\- Where are margin risks and optimization opportunities?
-
-
+The dashboard answers key business questions related to revenue growth, margin performance, customer contribution, and regional concentration.
 
 ---
 
+## What Was Done in This Project
 
+### Data Preparation & Modeling
+- Loaded transactional and master data from CSV and Excel sources
+- Cleaned and transformed data using Power Query
+- Built a star-schema model with Fact and Dimension tables
+- Configured relationships and a proper Date table
 
-\## What Was Done in This Project
+### Business Metrics & DAX
+- Total Sales
+- Total Profit
+- Profit Margin %
+- Year-over-Year (YoY) analysis
+- Year-to-Date (YTD) analysis
+- Month-over-Month (MoM) trends
 
-
-
-\### 1. Data Preparation \& Modeling
-
-\- Loaded transactional and master data from multiple CSV and Excel sources.
-
-\- Cleaned and transformed data using Power Query.
-
-\- Designed a star-schema data model with Fact and Dimension tables.
-
-\- Established one-to-many relationships for accurate aggregation.
-
-\- Configured a proper Date table to enable time intelligence.
-
-
-
-\### 2. Business Metrics \& DAX
-
-Created reusable DAX measures to support analysis, including:
-
-\- Total Sales
-
-\- Total Profit
-
-\- Profit Margin %
-
-\- Year-over-Year (YoY) Sales and Profit
-
-\- Year-to-Date (YTD) Sales and Profit
-
-\- Month-over-Month (MoM) performance metrics
-
-
-
-\### 3. Dashboard Pages
-
-The Power BI report contains multiple pages:
-
-\- \*\*Executive Overview:\*\* High-level KPIs and performance trends.
-
-\- \*\*Profitability \& Variance:\*\* YoY analysis, margin evaluation, and sales vs. profitability trade-offs.
-
-\- \*\*Customer \& Region Insights:\*\* Identification of top customers, high-revenue/low-margin segments, and regional contribution patterns.
-
-
-
-\### 4. Business Insights
-
-The dashboard enables stakeholders to:
-
-\- Monitor performance trends over time
-
-\- Identify profitable and underperforming products or customers
-
-\- Detect margin risks hidden behind high revenue
-
-\- Support data-driven decisions using clear visual storytelling
-
-
+### Dashboard Pages
+- **Executive Overview**
+- **Profitability & Variance**
+- **Customer & Region Insights**
 
 ---
 
-
-
-\## Tools \& Technologies
-
-\- Power BI
-
-\- DAX
-
-\- Power Query
-
-\- Excel / CSV
-
-
+## Tools & Technologies
+- Power BI
+- DAX
+- Power Query
+- Excel / CSV
 
 ---
 
-
-
-\## Repository Structure
-
-
+## Repository Structure
 
 ---
 
+## Dashboard Screenshots
 
+### Executive Overview
+![Executive Overview](Screenshots/BA_Overview.png)
 
-\## Dashboard Screenshots
+### Profitability & Variance
+![Profitability & Variance](Screenshots/BA_Profitability.png)
 
-
-
-\### Executive Overview
-
-!\[Executive Overview](Screenshots/BA\_Overview.png)
-
-
-
-\### Profitability \& Variance Analysis
-
-!\[Profitability \& Variance](Screenshots/BA\_Profitability.png)
-
-
-
-\### Customer \& Region Insights
-
-!\[Customer \& Region Insights](Screenshots/BA\_Customer\_Region.png)
-
-
+### Customer & Region Insights
+![Customer & Region Insights](Screenshots/BA_Customer_Region.png)
 
 ---
 
-
-
-\## Notes
-
-This project reflects a real-world Business Analyst workflow where insights are derived through structured data modeling, DAX calculations, and decision-oriented dashboards rather than isolated visualizations.
-
-
-
+## Notes
+This project reflects a real-world Business Analyst workflow focused on insight generation and decision support rather than basic reporting.
